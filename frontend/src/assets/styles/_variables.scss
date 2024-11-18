@@ -1,0 +1,36 @@
+@use 'sass:color';
+@use './bootstrap-icons' as *;
+
+// Custom variables
+$primary: #4f46e5;
+$secondary: #6366f1;
+$success: #22c55e;
+$info: #3b82f6;
+$warning: #f59e0b;
+$danger: #ef4444;
+
+// Custom font
+$font-family-base: 'Inter', system-ui, -apple-system, sans-serif;
+$headings-font-family: $font-family-base;
+
+// Custom border radius
+$border-radius: 0.5rem;
+$border-radius-lg: 0.75rem;
+$border-radius-sm: 0.375rem;
+
+// Custom spacing
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 4.5,
+  7: $spacer * 6,
+);
+
+// Custom shadows
+$box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+$box-shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);

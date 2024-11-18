@@ -1,0 +1,11 @@
+@use 'variables' as *;
+@forward 'bootstrap/scss/bootstrap' with (
+  $primary: $primary,
+  $secondary: $secondary,
+  $success: $success,
+  $info: $info,
+  $warning: $warning,
+  $danger: $danger,
+  $font-family-base: $font-family-base,
+  $headings-font-family: $headings-font-family
+);
