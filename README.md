@@ -11,7 +11,7 @@ Event Planner is a Vue.js application designed to help users plan and manage eve
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/your-username/event-planner.git
+    git clone https://github.com/albinkroby/event-planner.git
     ```
 2. Navigate to the project directory:
     ```sh
